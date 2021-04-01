@@ -789,4 +789,33 @@ li{
         width: 100%;
         max-width: 100%;
     }
+
+    .main__text,.main__description{
+        color: #999;
+    }
+
+    .modal__text{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .modal__text:not(:last-child) {
+        margin-bottom: 10px;
+    }
+
+    .modal__caption{
+        font-size: 20px;
+        line-height: 40px;
+        margin-bottom: 30px;
+    }
+
+    .popup{
+        padding-top: 30px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .popup-close{
+        top: 40px;
+    }
 }
