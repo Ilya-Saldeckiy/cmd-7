@@ -316,6 +316,10 @@ li{
     overflow: auto;
 }
 
+.popup-open:hover{
+    text-decoration: underline;
+}
+
 .popup-close {
     width: 18px;
     height: 18px;
@@ -756,10 +760,9 @@ li{
     }
 
     .header-section{
-        background-color: unset;
         padding-top: 16px;
-        padding-bottom: 10px;
-        background: none;
+        height: 100%;
+        padding-bottom: 103%;
     }
 
     .phone-link{
@@ -780,14 +783,8 @@ li{
         padding-top: 0;
     }
 
-    .mobile__text-description .container{
-        padding-top: 8px;
-    }
-
-    .mobile-img{
-        display: block;
-        width: 100%;
-        max-width: 100%;
+    .mobile__text-description{
+        padding-top: 22px;
     }
 
     .main__text,.main__description{
