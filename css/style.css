@@ -21,6 +21,10 @@ body{
 	font-weight: 400;
     line-height: 32px;
     color: #000000;
+    /* height: 100vh;
+    background: url('../img/header_bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: bottom right; */
 }
 
 a{
@@ -109,8 +113,8 @@ li{
 }
 
 .header__container{
-    padding-left: 80px;
-    padding-bottom: 117px;
+    padding-left: 120px;
+    padding-bottom: 93px;
 }
 
 .main__text{
@@ -143,12 +147,12 @@ li{
 /* Стили шапки */
 
 .header-section{
-    padding-top: 32px;
+    padding-top: 40px;
     padding-bottom: 36px;
     height: 100%;
     background: url('../img/header_bg.jpg') no-repeat;
     background-size: cover;
-    background-position: 80%;
+    background-position: bottom right;
 }
 
 .header-phone-position{
@@ -435,17 +439,17 @@ li{
 } 
 
 .chesel-row{
-    background: rgba(248, 248, 248, 0.96);
+    background:#f3bec2;
     text-transform: uppercase;
     text-align: center;
     font-size: 20px;
     font-size: 1.54vw;
     z-index: 3;
     bottom: 0;
-    color: #d2d2d2;
+    color: #dda7aa;
     width: 100%;
     line-height: 1;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+    box-shadow: none;
     transform: scaleY(1.5);
     transform-origin: bottom;
 }
@@ -455,7 +459,7 @@ li{
 }
 
 /* Адаптив */
-@media (max-width: 1279px){
+@media (max-width: 1366px){
     .container,.header__container{
         width: 100%;
         padding-left: 16px;
@@ -500,7 +504,7 @@ li{
         line-height: 1.8;
         font-weight: 700;
         color: #ffffff;
-        margin-right: 24px;
+        margin-right: 0px;
     }
 
     .header-caption{
@@ -563,6 +567,26 @@ li{
         padding-right: 16px;
         width: 100%;
     }
+
+    .chesel-row{
+        background: rgba(248, 248, 248, 0.96);
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 20px;
+        font-size: 1.54vw;
+        z-index: 3;
+        bottom: 0;
+        color: #d2d2d2;
+        width: 100%;
+        line-height: 1;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.03);
+        transform: scaleY(1.5);
+        transform-origin: bottom;
+    }
+
+    .header__container{
+        padding-bottom: 47px;
+    }
 /* 
     img{
         max-width: 144px;
@@ -586,7 +610,8 @@ li{
     }
 
     .header-promocode {
-        font-size: 16px;
+        font-size: 18px;
+        line-height: 28px;
     }
 
     .header-subtitle_decoration{
@@ -598,7 +623,7 @@ li{
     .header-phone-position{
         font-size: 11px;
         line-height: 1.2;
-        margin-right: 12px;
+        margin-right: 0px;
     }
 
     .cart-btn{
@@ -685,6 +710,10 @@ li{
         width: 100%;
     }
 
+    .main__text,.main__description{
+        color: #999;
+    }
+
     .header__text{
         width: 100%;
     }
@@ -751,7 +780,8 @@ li{
     .header-promocode{
         font-size: 16px;
         line-height: 24px;
-        width: 300px;
+        width: 270px;
+        text-align: center;
     }
 
     .header__promo{
@@ -772,7 +802,7 @@ li{
 
     .header-phone-position {
         top: 6px;
-        left: 13px;
+        left: 0px;
     }
 
     .header__container{
@@ -814,5 +844,9 @@ li{
 
     .popup-close{
         top: 40px;
+    }
+
+    .mobile__text-description{
+        top: 14px;
     }
 }
