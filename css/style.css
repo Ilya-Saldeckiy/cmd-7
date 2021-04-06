@@ -458,6 +458,10 @@ li{
     margin-top: 90px;
 }
 
+.logo-off{
+    display: none;
+}
+
 /* Адаптив */
 @media (max-width: 1366px){
     .container,.header__container{
