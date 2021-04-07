@@ -180,7 +180,7 @@ li{
     /* position: fixed; */
     left: 0;
     right: 0;
-    z-index: 6;
+    z-index: 0;
 }
 
 .promo{
@@ -439,7 +439,7 @@ li{
 }
 
 .chesel-row{
-    background:transparent;
+    background:#f3bec2;
     text-transform: uppercase;
     text-align: center;
     font-size: 20px;
@@ -562,6 +562,18 @@ li{
 
     .footer{
         margin-top: 90px;
+    }
+
+    .header__container {
+        position: absolute;
+        z-index: 4;
+        top: 64px;
+        bottom: 128px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        height: 360px;
+        overflow: visible;
     }
 }
 
@@ -714,8 +726,12 @@ li{
         width: 100%;
     }
 
-    .main__text,.main__description{
+    .main__text{
         color: #999;
+    }
+
+    .main__description{
+        color: #bbbb;
     }
 
     .header__text{
@@ -765,9 +781,9 @@ li{
 
 		z-index: 4;
 
-		top: 80px;
+		top: 64px;
 
-		bottom: 144px;
+		bottom: 128px;
 
 		left: 0;
 
@@ -775,7 +791,7 @@ li{
 
 		margin: auto;
 
-		height: 488px;
+		height: 360px;
 
 		overflow: visible;
 
@@ -789,11 +805,11 @@ li{
 
 		z-index: 4;
 
-		left: 40px;
+		left: 0px;
 
-		right: 40px;
+		right: 0px;
 
-		bottom: 56px;
+		bottom: 40px;
 
 	}
 
@@ -880,8 +896,12 @@ li{
         padding-top: 22px;
     }
 
-    .main__text,.main__description{
+    .main__text{
         color: #999;
+    }
+
+    .main__description{
+        color: #bbbb;
     }
 
     .modal__text{
